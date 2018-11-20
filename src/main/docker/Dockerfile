@@ -14,7 +14,7 @@ RUN alternatives --install /usr/bin/java jar /usr/java/latest/bin/java 200000
 RUN alternatives --install /usr/bin/javaws javaws /usr/java/latest/bin/javaws 200000
 RUN alternatives --install /usr/bin/javac javac /usr/java/latest/bin/javac 200000
 
-EXPOSE 8080
+EXPOSE 8010
 
 #install Spring Boot artifact
 VOLUME /tmp
