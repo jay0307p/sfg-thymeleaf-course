@@ -1,4 +1,4 @@
-FROM fabric8/java-centos-openjdk8-jdk
+FROM fabric8/java-centos-openjdk8-jdk:latest
 
 #ENV JAVA_VERSION 8u31
 #ENV BUILD_VERSION b13
