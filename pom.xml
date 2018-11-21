@@ -72,7 +72,7 @@
                     <verbose>true</verbose>
                     <images>
                         <image>
-                            <name>jay0307p/springboot</name>
+                            <name>jay0307p/springboot:${build.number}</name>
                             <build>
                                 <dockerFile>Dockerfile</dockerFile>
                                 <assembly>
