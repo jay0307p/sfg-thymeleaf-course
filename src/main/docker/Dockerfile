@@ -4,7 +4,7 @@ USER root
 #ENV BUILD_VERSION b13
 
 # Upgrading system
-RUN sudo yum -y upgrade
+#RUN sudo yum -y upgrade
 #RUN sudo yum -y install wget
 #RUN yum -y update && \
       #yum -y install sudo
