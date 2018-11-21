@@ -4,8 +4,11 @@ FROM fabric8/java-centos-openjdk8-jdk:latest
 #ENV BUILD_VERSION b13
 
 # Upgrading system
-RUN sudo yum -y upgrade
+#RUN sudo yum -y upgrade
 #RUN sudo yum -y install wget
+RUN yum -y update && \
+      yum -y install sudo
+
 
 # Downloading & Config Java 8
 #RUN wget --no-cookies --no-check-certificate --header "Cookie: oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/$JAVA_VERSION-$BUILD_VERSION/jdk-$JAVA_VERSION-linux-x64.rpm" -O /tmp/jdk-8-linux-x64.rpm
